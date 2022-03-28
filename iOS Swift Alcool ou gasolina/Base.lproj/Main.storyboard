@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,101 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_Swift_Alcool_ou_gasolina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="xqv-Rd-QgK">
+                                <rect key="frame" x="20" y="64" width="374" height="106"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preço do álcool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hiu-qs-wEA">
+                                <rect key="frame" x="20" y="180" width="138" height="19"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preço do gasolina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wej-6u-CO5">
+                                <rect key="frame" x="234" y="175" width="160" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: 2.99" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qqo-k5-d2w">
+                                <rect key="frame" x="234" y="207" width="160" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: 1.99" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gig-t4-dwS">
+                                <rect key="frame" x="20" y="207" width="160" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digite os preços primeiro!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uG-qt-dus">
+                                <rect key="frame" x="20" y="350" width="374" height="62"/>
+                                <color key="backgroundColor" red="0.4371538653533214" green="0.65175779160725389" blue="0.47507185625653392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="gKu-jQ-wSo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Al-Zb-p93">
+                                <rect key="frame" x="147" y="270" width="120" height="50"/>
+                                <color key="backgroundColor" red="0.24001273191108483" green="0.357837778653886" blue="0.26083103252911582" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="lsB-Ph-xt0"/>
+                                    <constraint firstAttribute="height" constant="50" id="xCX-pI-bxf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <state key="normal" title="Calcular">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculeteFuel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kRL-6z-abu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.4909801010025755" green="0.73200795352435233" blue="0.53356688903984284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qqo-k5-d2w" firstAttribute="leading" secondItem="Gig-t4-dwS" secondAttribute="trailing" constant="54" id="0tc-Z0-FJH"/>
+                            <constraint firstItem="4Al-Zb-p93" firstAttribute="top" secondItem="Qqo-k5-d2w" secondAttribute="bottom" constant="29" id="4FC-qb-Quz"/>
+                            <constraint firstItem="4Al-Zb-p93" firstAttribute="top" secondItem="Gig-t4-dwS" secondAttribute="bottom" constant="29" id="4dd-EH-DIA"/>
+                            <constraint firstItem="5uG-qt-dus" firstAttribute="trailing" secondItem="Qqo-k5-d2w" secondAttribute="trailing" id="6HC-ih-0ho"/>
+                            <constraint firstItem="hiu-qs-wEA" firstAttribute="top" secondItem="xqv-Rd-QgK" secondAttribute="bottom" constant="10" id="BcF-Pl-zbw"/>
+                            <constraint firstItem="hiu-qs-wEA" firstAttribute="leading" secondItem="xqv-Rd-QgK" secondAttribute="leading" id="FEF-Lc-uP9"/>
+                            <constraint firstItem="hiu-qs-wEA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="180" id="Fz5-Pm-PeK"/>
+                            <constraint firstItem="5uG-qt-dus" firstAttribute="top" secondItem="4Al-Zb-p93" secondAttribute="bottom" constant="30" id="Gcs-Yy-1Ma"/>
+                            <constraint firstItem="4Al-Zb-p93" firstAttribute="centerX" secondItem="5uG-qt-dus" secondAttribute="centerX" id="Ggr-qN-Hfs"/>
+                            <constraint firstItem="Gig-t4-dwS" firstAttribute="top" secondItem="hiu-qs-wEA" secondAttribute="bottom" constant="8" id="J1W-N2-kmU"/>
+                            <constraint firstItem="hiu-qs-wEA" firstAttribute="leading" secondItem="Gig-t4-dwS" secondAttribute="leading" id="S50-j3-ZwI"/>
+                            <constraint firstItem="hiu-qs-wEA" firstAttribute="leading" secondItem="5uG-qt-dus" secondAttribute="leading" id="Wq4-HD-lEt"/>
+                            <constraint firstItem="xqv-Rd-QgK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YTo-6j-xzE"/>
+                            <constraint firstItem="Qqo-k5-d2w" firstAttribute="leading" secondItem="Wej-6u-CO5" secondAttribute="leading" id="byK-Qf-dgG"/>
+                            <constraint firstItem="Wej-6u-CO5" firstAttribute="leading" secondItem="hiu-qs-wEA" secondAttribute="trailing" constant="76" id="fP3-NO-hEl"/>
+                            <constraint firstItem="hiu-qs-wEA" firstAttribute="baseline" secondItem="Wej-6u-CO5" secondAttribute="baseline" id="fQw-Ea-Okl"/>
+                            <constraint firstItem="Qqo-k5-d2w" firstAttribute="baseline" secondItem="Gig-t4-dwS" secondAttribute="firstBaseline" id="gHT-he-eTh"/>
+                            <constraint firstItem="5uG-qt-dus" firstAttribute="trailing" secondItem="Wej-6u-CO5" secondAttribute="trailing" id="im6-Hq-TPP"/>
+                            <constraint firstItem="hiu-qs-wEA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rs0-6V-h4o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5uG-qt-dus" secondAttribute="bottom" constant="450" id="t3d-Pe-770"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wej-6u-CO5" secondAttribute="trailing" constant="20" id="tDi-rB-vAo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xqv-Rd-QgK" secondAttribute="trailing" constant="20" id="wgQ-Ra-Npf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="alcoholPriceField" destination="Gig-t4-dwS" id="glg-fS-QfX"/>
+                        <outlet property="gasolinePriceField" destination="Qqo-k5-d2w" id="ofl-Fr-DCY"/>
+                        <outlet property="legendResult" destination="5uG-qt-dus" id="Koz-Ag-X3Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="103.79464285714285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo" width="407" height="106"/>
+    </resources>
 </document>
