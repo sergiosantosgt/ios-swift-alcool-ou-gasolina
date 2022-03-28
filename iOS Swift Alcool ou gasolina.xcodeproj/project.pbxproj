@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046B243F27F13A6C001A0D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B243E27F13A6C001A0D03 /* AppDelegate.swift */; };
+		046B244127F13A6C001A0D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B244027F13A6C001A0D03 /* SceneDelegate.swift */; };
+		046B244327F13A6C001A0D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B244227F13A6C001A0D03 /* ViewController.swift */; };
+		046B244627F13A6C001A0D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B244427F13A6C001A0D03 /* Main.storyboard */; };
+		046B244827F13A6F001A0D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046B244727F13A6F001A0D03 /* Assets.xcassets */; };
+		046B244B27F13A6F001A0D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B244927F13A6F001A0D03 /* LaunchScreen.storyboard */; };
+		046B245627F13A70001A0D03 /* iOS_Swift_Alcool_ou_gasolinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B245527F13A70001A0D03 /* iOS_Swift_Alcool_ou_gasolinaTests.swift */; };
+		046B246127F13A70001A0D03 /* iOS_Swift_Alcool_ou_gasolinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B246027F13A70001A0D03 /* iOS_Swift_Alcool_ou_gasolinaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046B245227F13A70001A0D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046B243327F13A6C001A0D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B243A27F13A6C001A0D03;
+			remoteInfo = "iOS Swift Alcool ou gasolina";
+		};
+		046B245D27F13A70001A0D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046B243327F13A6C001A0D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B243A27F13A6C001A0D03;
+			remoteInfo = "iOS Swift Alcool ou gasolina";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046B243B27F13A6C001A0D03 /* iOS Swift Alcool ou gasolina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Swift Alcool ou gasolina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B243E27F13A6C001A0D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046B244027F13A6C001A0D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		046B244227F13A6C001A0D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046B244527F13A6C001A0D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046B244727F13A6F001A0D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046B244A27F13A6F001A0D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046B244C27F13A6F001A0D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046B245127F13A70001A0D03 /* iOS Swift Alcool ou gasolinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Swift Alcool ou gasolinaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B245527F13A70001A0D03 /* iOS_Swift_Alcool_ou_gasolinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Swift_Alcool_ou_gasolinaTests.swift; sourceTree = "<group>"; };
+		046B245727F13A70001A0D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046B245C27F13A70001A0D03 /* iOS Swift Alcool ou gasolinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Swift Alcool ou gasolinaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B246027F13A70001A0D03 /* iOS_Swift_Alcool_ou_gasolinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Swift_Alcool_ou_gasolinaUITests.swift; sourceTree = "<group>"; };
+		046B246227F13A70001A0D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046B243827F13A6C001A0D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B244E27F13A70001A0D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B245927F13A70001A0D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046B243227F13A6C001A0D03 = {
+			isa = PBXGroup;
+			children = (
+				046B243D27F13A6C001A0D03 /* iOS Swift Alcool ou gasolina */,
+				046B245427F13A70001A0D03 /* iOS Swift Alcool ou gasolinaTests */,
+				046B245F27F13A70001A0D03 /* iOS Swift Alcool ou gasolinaUITests */,
+				046B243C27F13A6C001A0D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046B243C27F13A6C001A0D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046B243B27F13A6C001A0D03 /* iOS Swift Alcool ou gasolina.app */,
+				046B245127F13A70001A0D03 /* iOS Swift Alcool ou gasolinaTests.xctest */,
+				046B245C27F13A70001A0D03 /* iOS Swift Alcool ou gasolinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046B243D27F13A6C001A0D03 /* iOS Swift Alcool ou gasolina */ = {
+			isa = PBXGroup;
+			children = (
+				046B243E27F13A6C001A0D03 /* AppDelegate.swift */,
+				046B244027F13A6C001A0D03 /* SceneDelegate.swift */,
+				046B244227F13A6C001A0D03 /* ViewController.swift */,
+				046B244427F13A6C001A0D03 /* Main.storyboard */,
+				046B244727F13A6F001A0D03 /* Assets.xcassets */,
+				046B244927F13A6F001A0D03 /* LaunchScreen.storyboard */,
+				046B244C27F13A6F001A0D03 /* Info.plist */,
+			);
+			path = "iOS Swift Alcool ou gasolina";
+			sourceTree = "<group>";
+		};
+		046B245427F13A70001A0D03 /* iOS Swift Alcool ou gasolinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				046B245527F13A70001A0D03 /* iOS_Swift_Alcool_ou_gasolinaTests.swift */,
+				046B245727F13A70001A0D03 /* Info.plist */,
+			);
+			path = "iOS Swift Alcool ou gasolinaTests";
+			sourceTree = "<group>";
+		};
+		046B245F27F13A70001A0D03 /* iOS Swift Alcool ou gasolinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046B246027F13A70001A0D03 /* iOS_Swift_Alcool_ou_gasolinaUITests.swift */,
+				046B246227F13A70001A0D03 /* Info.plist */,
+			);
+			path = "iOS Swift Alcool ou gasolinaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046B243A27F13A6C001A0D03 /* iOS Swift Alcool ou gasolina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B246527F13A70001A0D03 /* Build configuration list for PBXNativeTarget "iOS Swift Alcool ou gasolina" */;
+			buildPhases = (
+				046B243727F13A6C001A0D03 /* Sources */,
+				046B243827F13A6C001A0D03 /* Frameworks */,
+				046B243927F13A6C001A0D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Swift Alcool ou gasolina";
+			productName = "iOS Swift Alcool ou gasolina";
+			productReference = 046B243B27F13A6C001A0D03 /* iOS Swift Alcool ou gasolina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046B245027F13A70001A0D03 /* iOS Swift Alcool ou gasolinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B246827F13A70001A0D03 /* Build configuration list for PBXNativeTarget "iOS Swift Alcool ou gasolinaTests" */;
+			buildPhases = (
+				046B244D27F13A70001A0D03 /* Sources */,
+				046B244E27F13A70001A0D03 /* Frameworks */,
+				046B244F27F13A70001A0D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046B245327F13A70001A0D03 /* PBXTargetDependency */,
+			);
+			name = "iOS Swift Alcool ou gasolinaTests";
+			productName = "iOS Swift Alcool ou gasolinaTests";
+			productReference = 046B245127F13A70001A0D03 /* iOS Swift Alcool ou gasolinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046B245B27F13A70001A0D03 /* iOS Swift Alcool ou gasolinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B246B27F13A70001A0D03 /* Build configuration list for PBXNativeTarget "iOS Swift Alcool ou gasolinaUITests" */;
+			buildPhases = (
+				046B245827F13A70001A0D03 /* Sources */,
+				046B245927F13A70001A0D03 /* Frameworks */,
+				046B245A27F13A70001A0D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046B245E27F13A70001A0D03 /* PBXTargetDependency */,
+			);
+			name = "iOS Swift Alcool ou gasolinaUITests";
+			productName = "iOS Swift Alcool ou gasolinaUITests";
+			productReference = 046B245C27F13A70001A0D03 /* iOS Swift Alcool ou gasolinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046B243327F13A6C001A0D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					046B243A27F13A6C001A0D03 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					046B245027F13A70001A0D03 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 046B243A27F13A6C001A0D03;
+					};
+					046B245B27F13A70001A0D03 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 046B243A27F13A6C001A0D03;
+					};
+				};
+			};
+			buildConfigurationList = 046B243627F13A6C001A0D03 /* Build configuration list for PBXProject "iOS Swift Alcool ou gasolina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046B243227F13A6C001A0D03;
+			productRefGroup = 046B243C27F13A6C001A0D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046B243A27F13A6C001A0D03 /* iOS Swift Alcool ou gasolina */,
+				046B245027F13A70001A0D03 /* iOS Swift Alcool ou gasolinaTests */,
+				046B245B27F13A70001A0D03 /* iOS Swift Alcool ou gasolinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046B243927F13A6C001A0D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B244B27F13A6F001A0D03 /* LaunchScreen.storyboard in Resources */,
+				046B244827F13A6F001A0D03 /* Assets.xcassets in Resources */,
+				046B244627F13A6C001A0D03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B244F27F13A70001A0D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B245A27F13A70001A0D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046B243727F13A6C001A0D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B244327F13A6C001A0D03 /* ViewController.swift in Sources */,
+				046B243F27F13A6C001A0D03 /* AppDelegate.swift in Sources */,
+				046B244127F13A6C001A0D03 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B244D27F13A70001A0D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B245627F13A70001A0D03 /* iOS_Swift_Alcool_ou_gasolinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B245827F13A70001A0D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B246127F13A70001A0D03 /* iOS_Swift_Alcool_ou_gasolinaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046B245327F13A70001A0D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046B243A27F13A6C001A0D03 /* iOS Swift Alcool ou gasolina */;
+			targetProxy = 046B245227F13A70001A0D03 /* PBXContainerItemProxy */;
+		};
+		046B245E27F13A70001A0D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046B243A27F13A6C001A0D03 /* iOS Swift Alcool ou gasolina */;
+			targetProxy = 046B245D27F13A70001A0D03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046B244427F13A6C001A0D03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046B244527F13A6C001A0D03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046B244927F13A6F001A0D03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046B244A27F13A6F001A0D03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046B246327F13A70001A0D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046B246427F13A70001A0D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046B246627F13A70001A0D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "iOS Swift Alcool ou gasolina/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.iOS-Swift-Alcool-ou-gasolina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046B246727F13A70001A0D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "iOS Swift Alcool ou gasolina/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.iOS-Swift-Alcool-ou-gasolina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046B246927F13A70001A0D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "iOS Swift Alcool ou gasolinaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.iOS-Swift-Alcool-ou-gasolinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Swift Alcool ou gasolina.app/iOS Swift Alcool ou gasolina";
+			};
+			name = Debug;
+		};
+		046B246A27F13A70001A0D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "iOS Swift Alcool ou gasolinaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.iOS-Swift-Alcool-ou-gasolinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Swift Alcool ou gasolina.app/iOS Swift Alcool ou gasolina";
+			};
+			name = Release;
+		};
+		046B246C27F13A70001A0D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "iOS Swift Alcool ou gasolinaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.iOS-Swift-Alcool-ou-gasolinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Swift Alcool ou gasolina";
+			};
+			name = Debug;
+		};
+		046B246D27F13A70001A0D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "iOS Swift Alcool ou gasolinaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.iOS-Swift-Alcool-ou-gasolinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Swift Alcool ou gasolina";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046B243627F13A6C001A0D03 /* Build configuration list for PBXProject "iOS Swift Alcool ou gasolina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B246327F13A70001A0D03 /* Debug */,
+				046B246427F13A70001A0D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B246527F13A70001A0D03 /* Build configuration list for PBXNativeTarget "iOS Swift Alcool ou gasolina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B246627F13A70001A0D03 /* Debug */,
+				046B246727F13A70001A0D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B246827F13A70001A0D03 /* Build configuration list for PBXNativeTarget "iOS Swift Alcool ou gasolinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B246927F13A70001A0D03 /* Debug */,
+				046B246A27F13A70001A0D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B246B27F13A70001A0D03 /* Build configuration list for PBXNativeTarget "iOS Swift Alcool ou gasolinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B246C27F13A70001A0D03 /* Debug */,
+				046B246D27F13A70001A0D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046B243327F13A6C001A0D03 /* Project object */;
+}
